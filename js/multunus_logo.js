@@ -40,7 +40,18 @@ function writeDottedMultunusLogo() {
 }
 function bindBulletAnimation() {
 	$(".start-bullets").click(function(){
-		$(this).hide();
-		$(".dotted").removeClass("inactive");
+		var self = this;
+		$(".dotted").addClass("inactive");
+		setTimeout(function(){
+			startAnimation($(self));
+		}, 900);
+
 	});
+}
+function startAnimation(element){
+	$(element).removeClass('show').addClass('hide');
+	$(".dotted").removeClass("inactive");
+	setTimeout(function(){
+		$(element).text("PLAY AGAIN").removeClass('hide').addClass('show');
+	}, 8000);
 }

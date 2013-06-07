@@ -9,11 +9,17 @@ body {
   font-size: 2em;
   cursor: pointer;
   border-radius: 20px; }
+  .start-bullets.show {
+    margin-top: 0px;
+    transition: margin 0.5s ease-out; }
+  .start-bullets.hide {
+    margin-top: 500px;
+    transition: margin 0.5s ease-out; }
 
 .multunus-logo-container.dotted {
   width: 330px;
   height: 150px;
-  margin: 12em auto 2em auto;
+  margin: 20em auto 12em auto;
   background: black;
   position: relative;
   top: 0;
