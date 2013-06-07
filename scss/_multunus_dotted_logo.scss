@@ -1,0 +1,17 @@
+.multunus-logo-container {
+	width: 500px;
+	height: 300px;
+	border: 2px solid;
+	margin: 4em auto;
+
+	position: relative;
+	top:0;left:0;
+
+	.char {
+		position:absolute;
+		top:0;left:0;
+		width: 20px; height:20px;
+		border-radius: 10px;
+		background: $primary_dark;
+	}
+}
