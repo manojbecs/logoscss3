@@ -2,19 +2,756 @@ body {
   width: 100%;
   height: 100%; }
 
-.multunus-logo-container {
-  width: 800px;
-  height: 300px;
-  border: 2px solid;
+.multunus-logo-container.dotted {
+  width: 330px;
+  height: 150px;
   margin: 4em auto;
+  background: #000;
   position: relative;
   top: 0;
   left: 0; }
-  .multunus-logo-container .char {
-    position: absolute;
+  .multunus-logo-container.dotted .char {
+    position: relative;
     top: 0;
     left: 0;
-    width: 20px;
-    height: 20px;
-    border-radius: 10px;
-    background: black; }
+    float: left;
+    height: 52px; }
+    .multunus-logo-container.dotted .char .dot {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 7px;
+      height: 7px;
+      border-radius: 7px; }
+    .multunus-logo-container.dotted .char.primary .dot {
+      background: white; }
+    .multunus-logo-container.dotted .char.secondary .dot {
+      background: #b30000; }
+    .multunus-logo-container.dotted .char.m {
+      width: 40px;
+      margin: 50px 0 0 50px; }
+      .multunus-logo-container.dotted .char.m .dot {
+        /*line1*/
+        /*curve 1*/
+        /*join*/
+        /*curve2*/
+        /*line3*/ }
+        .multunus-logo-container.dotted .char.m .dot.c1 {
+          top: 36px; }
+        .multunus-logo-container.dotted .char.m .dot.c2 {
+          top: 34px; }
+        .multunus-logo-container.dotted .char.m .dot.c3 {
+          top: 32px; }
+        .multunus-logo-container.dotted .char.m .dot.c4 {
+          top: 29px; }
+        .multunus-logo-container.dotted .char.m .dot.c5 {
+          top: 26px; }
+        .multunus-logo-container.dotted .char.m .dot.c6 {
+          top: 24px; }
+        .multunus-logo-container.dotted .char.m .dot.c7 {
+          top: 22px; }
+        .multunus-logo-container.dotted .char.m .dot.c8 {
+          top: 20px; }
+        .multunus-logo-container.dotted .char.m .dot.c9 {
+          top: 18px; }
+        .multunus-logo-container.dotted .char.m .dot.c10 {
+          top: 16px; }
+        .multunus-logo-container.dotted .char.m .dot.c11 {
+          top: 14px; }
+        .multunus-logo-container.dotted .char.m .dot.c12 {
+          top: 12px; }
+        .multunus-logo-container.dotted .char.m .dot.c13 {
+          top: 10px;
+          left: 1px; }
+        .multunus-logo-container.dotted .char.m .dot.c14 {
+          top: 10px;
+          left: 1px; }
+        .multunus-logo-container.dotted .char.m .dot.c15 {
+          top: 10px;
+          left: 2px; }
+        .multunus-logo-container.dotted .char.m .dot.c16 {
+          top: 10px;
+          left: 2px; }
+        .multunus-logo-container.dotted .char.m .dot.c17 {
+          top: 10px;
+          left: 3px; }
+        .multunus-logo-container.dotted .char.m .dot.c18 {
+          top: 9px;
+          left: 3px; }
+        .multunus-logo-container.dotted .char.m .dot.c19 {
+          top: 9px;
+          left: 4px; }
+        .multunus-logo-container.dotted .char.m .dot.c20 {
+          top: 9px;
+          left: 5px; }
+        .multunus-logo-container.dotted .char.m .dot.c21 {
+          top: 8px;
+          left: 7px; }
+        .multunus-logo-container.dotted .char.m .dot.c22 {
+          top: 8px;
+          left: 9px; }
+        .multunus-logo-container.dotted .char.m .dot.c23 {
+          top: 8px;
+          left: 11px; }
+        .multunus-logo-container.dotted .char.m .dot.c24 {
+          top: 9px;
+          left: 13px; }
+        .multunus-logo-container.dotted .char.m .dot.c25 {
+          top: 10px;
+          left: 13px; }
+        .multunus-logo-container.dotted .char.m .dot.c26 {
+          top: 10px;
+          left: 14px; }
+        .multunus-logo-container.dotted .char.m .dot.c27 {
+          top: 10px;
+          left: 14px; }
+        .multunus-logo-container.dotted .char.m .dot.c28 {
+          top: 10px;
+          left: 15px; }
+        .multunus-logo-container.dotted .char.m .dot.c29 {
+          top: 11px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.m .dot.c30 {
+          top: 12px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.m .dot.c31 {
+          top: 13px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.m .dot.c32 {
+          top: 15px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.m .dot.c33 {
+          top: 17px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.m .dot.c34 {
+          top: 19px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.m .dot.c35 {
+          top: 20px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.m .dot.c36 {
+          top: 22px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.m .dot.c37 {
+          top: 24px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.m .dot.c38 {
+          top: 26px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.m .dot.c39 {
+          top: 28px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.m .dot.c40 {
+          top: 30px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.m .dot.c41 {
+          top: 32px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.m .dot.c42 {
+          top: 35px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.m .dot.c43 {
+          top: 15px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.m .dot.c44 {
+          top: 10px;
+          left: 17px; }
+        .multunus-logo-container.dotted .char.m .dot.c45 {
+          top: 10px;
+          left: 17px; }
+        .multunus-logo-container.dotted .char.m .dot.c46 {
+          top: 10px;
+          left: 18px; }
+        .multunus-logo-container.dotted .char.m .dot.c47 {
+          top: 10px;
+          left: 18px; }
+        .multunus-logo-container.dotted .char.m .dot.c48 {
+          top: 10px;
+          left: 19px; }
+        .multunus-logo-container.dotted .char.m .dot.c49 {
+          top: 9px;
+          left: 19px; }
+        .multunus-logo-container.dotted .char.m .dot.c50 {
+          top: 9px;
+          left: 20px; }
+        .multunus-logo-container.dotted .char.m .dot.c51 {
+          top: 9px;
+          left: 21px; }
+        .multunus-logo-container.dotted .char.m .dot.c52 {
+          top: 8px;
+          left: 23px; }
+        .multunus-logo-container.dotted .char.m .dot.c53 {
+          top: 8px;
+          left: 25px; }
+        .multunus-logo-container.dotted .char.m .dot.c54 {
+          top: 8px;
+          left: 27px; }
+        .multunus-logo-container.dotted .char.m .dot.c55 {
+          top: 9px;
+          left: 29px; }
+        .multunus-logo-container.dotted .char.m .dot.c56 {
+          top: 10px;
+          left: 29px; }
+        .multunus-logo-container.dotted .char.m .dot.c57 {
+          top: 10px;
+          left: 30px; }
+        .multunus-logo-container.dotted .char.m .dot.c58 {
+          top: 10px;
+          left: 30px; }
+        .multunus-logo-container.dotted .char.m .dot.c59 {
+          top: 10px;
+          left: 31px; }
+        .multunus-logo-container.dotted .char.m .dot.c60 {
+          top: 11px;
+          left: 32px; }
+        .multunus-logo-container.dotted .char.m .dot.c61 {
+          top: 12px;
+          left: 32px; }
+        .multunus-logo-container.dotted .char.m .dot.c62 {
+          top: 13px;
+          left: 32px; }
+        .multunus-logo-container.dotted .char.m .dot.c63 {
+          top: 15px;
+          left: 32px; }
+        .multunus-logo-container.dotted .char.m .dot.c64 {
+          top: 17px;
+          left: 32px; }
+        .multunus-logo-container.dotted .char.m .dot.c65 {
+          top: 20px;
+          left: 32px; }
+        .multunus-logo-container.dotted .char.m .dot.c66 {
+          top: 22px;
+          left: 32px; }
+        .multunus-logo-container.dotted .char.m .dot.c67 {
+          top: 24px;
+          left: 32px; }
+        .multunus-logo-container.dotted .char.m .dot.c68 {
+          top: 26px;
+          left: 32px; }
+        .multunus-logo-container.dotted .char.m .dot.c69 {
+          top: 28px;
+          left: 32px; }
+        .multunus-logo-container.dotted .char.m .dot.c70 {
+          top: 30px;
+          left: 32px; }
+        .multunus-logo-container.dotted .char.m .dot.c71 {
+          top: 32px;
+          left: 32px; }
+        .multunus-logo-container.dotted .char.m .dot.c72 {
+          top: 34px;
+          left: 32px; }
+        .multunus-logo-container.dotted .char.m .dot.c73 {
+          top: 36px;
+          left: 32px; }
+    .multunus-logo-container.dotted .char.u {
+      width: 24px;
+      margin: 50px 0 0 7px;
+      -webkit-transform: rotate(180deg);
+      transform: rotate(180deg); }
+      .multunus-logo-container.dotted .char.u .dot {
+        /*line1*/
+        /*curve 1*/
+        /*join*/ }
+        .multunus-logo-container.dotted .char.u .dot.c1 {
+          top: 36px; }
+        .multunus-logo-container.dotted .char.u .dot.c2 {
+          top: 34px; }
+        .multunus-logo-container.dotted .char.u .dot.c3 {
+          top: 32px; }
+        .multunus-logo-container.dotted .char.u .dot.c4 {
+          top: 29px; }
+        .multunus-logo-container.dotted .char.u .dot.c5 {
+          top: 26px; }
+        .multunus-logo-container.dotted .char.u .dot.c6 {
+          top: 24px; }
+        .multunus-logo-container.dotted .char.u .dot.c7 {
+          top: 22px; }
+        .multunus-logo-container.dotted .char.u .dot.c8 {
+          top: 20px; }
+        .multunus-logo-container.dotted .char.u .dot.c9 {
+          top: 18px; }
+        .multunus-logo-container.dotted .char.u .dot.c10 {
+          top: 16px; }
+        .multunus-logo-container.dotted .char.u .dot.c11 {
+          top: 14px; }
+        .multunus-logo-container.dotted .char.u .dot.c12 {
+          top: 12px; }
+        .multunus-logo-container.dotted .char.u .dot.c13 {
+          top: 10px;
+          left: 1px; }
+        .multunus-logo-container.dotted .char.u .dot.c14 {
+          top: 10px;
+          left: 1px; }
+        .multunus-logo-container.dotted .char.u .dot.c15 {
+          top: 10px;
+          left: 2px; }
+        .multunus-logo-container.dotted .char.u .dot.c16 {
+          top: 10px;
+          left: 2px; }
+        .multunus-logo-container.dotted .char.u .dot.c17 {
+          top: 10px;
+          left: 3px; }
+        .multunus-logo-container.dotted .char.u .dot.c18 {
+          top: 9px;
+          left: 3px; }
+        .multunus-logo-container.dotted .char.u .dot.c19 {
+          top: 9px;
+          left: 4px; }
+        .multunus-logo-container.dotted .char.u .dot.c20 {
+          top: 9px;
+          left: 5px; }
+        .multunus-logo-container.dotted .char.u .dot.c21 {
+          top: 8px;
+          left: 7px; }
+        .multunus-logo-container.dotted .char.u .dot.c22 {
+          top: 8px;
+          left: 9px; }
+        .multunus-logo-container.dotted .char.u .dot.c23 {
+          top: 8px;
+          left: 11px; }
+        .multunus-logo-container.dotted .char.u .dot.c24 {
+          top: 9px;
+          left: 13px; }
+        .multunus-logo-container.dotted .char.u .dot.c25 {
+          top: 10px;
+          left: 13px; }
+        .multunus-logo-container.dotted .char.u .dot.c26 {
+          top: 10px;
+          left: 14px; }
+        .multunus-logo-container.dotted .char.u .dot.c27 {
+          top: 10px;
+          left: 14px; }
+        .multunus-logo-container.dotted .char.u .dot.c28 {
+          top: 10px;
+          left: 15px; }
+        .multunus-logo-container.dotted .char.u .dot.c29 {
+          top: 11px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.u .dot.c30 {
+          top: 12px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.u .dot.c31 {
+          top: 13px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.u .dot.c32 {
+          top: 15px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.u .dot.c33 {
+          top: 17px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.u .dot.c34 {
+          top: 19px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.u .dot.c35 {
+          top: 20px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.u .dot.c36 {
+          top: 22px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.u .dot.c37 {
+          top: 24px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.u .dot.c38 {
+          top: 26px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.u .dot.c39 {
+          top: 28px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.u .dot.c40 {
+          top: 30px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.u .dot.c41 {
+          top: 32px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.u .dot.c42 {
+          top: 35px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.u .dot.c43 {
+          top: 36px;
+          left: 16px; }
+    .multunus-logo-container.dotted .char.l {
+      width: 7px;
+      margin: 50px 0 0 7px; }
+      .multunus-logo-container.dotted .char.l .dot {
+        /*line1*/ }
+        .multunus-logo-container.dotted .char.l .dot.c1 {
+          top: 36px; }
+        .multunus-logo-container.dotted .char.l .dot.c2 {
+          top: 34px; }
+        .multunus-logo-container.dotted .char.l .dot.c3 {
+          top: 32px; }
+        .multunus-logo-container.dotted .char.l .dot.c4 {
+          top: 29px; }
+        .multunus-logo-container.dotted .char.l .dot.c5 {
+          top: 26px; }
+        .multunus-logo-container.dotted .char.l .dot.c6 {
+          top: 24px; }
+        .multunus-logo-container.dotted .char.l .dot.c7 {
+          top: 22px; }
+        .multunus-logo-container.dotted .char.l .dot.c8 {
+          top: 20px; }
+        .multunus-logo-container.dotted .char.l .dot.c9 {
+          top: 18px; }
+        .multunus-logo-container.dotted .char.l .dot.c10 {
+          top: 16px; }
+        .multunus-logo-container.dotted .char.l .dot.c11 {
+          top: 14px; }
+        .multunus-logo-container.dotted .char.l .dot.c12 {
+          top: 12px; }
+        .multunus-logo-container.dotted .char.l .dot.c13 {
+          top: 10px; }
+        .multunus-logo-container.dotted .char.l .dot.c14 {
+          top: 8px; }
+        .multunus-logo-container.dotted .char.l .dot.c15 {
+          top: 6px; }
+        .multunus-logo-container.dotted .char.l .dot.c16 {
+          top: 4px; }
+        .multunus-logo-container.dotted .char.l .dot.c17 {
+          top: 2px; }
+        .multunus-logo-container.dotted .char.l .dot.c18 {
+          top: 0px; }
+    .multunus-logo-container.dotted .char.t {
+      width: 10px;
+      margin: 50px 0 0 7px; }
+      .multunus-logo-container.dotted .char.t .dot {
+        /*line1*/ }
+        .multunus-logo-container.dotted .char.t .dot.c1 {
+          top: 35px;
+          left: 1px; }
+        .multunus-logo-container.dotted .char.t .dot.c2 {
+          top: 34px; }
+        .multunus-logo-container.dotted .char.t .dot.c3 {
+          top: 32px; }
+        .multunus-logo-container.dotted .char.t .dot.c4 {
+          top: 29px; }
+        .multunus-logo-container.dotted .char.t .dot.c5 {
+          top: 26px; }
+        .multunus-logo-container.dotted .char.t .dot.c6 {
+          top: 24px; }
+        .multunus-logo-container.dotted .char.t .dot.c7 {
+          top: 22px; }
+        .multunus-logo-container.dotted .char.t .dot.c8 {
+          top: 20px; }
+        .multunus-logo-container.dotted .char.t .dot.c9 {
+          top: 18px; }
+        .multunus-logo-container.dotted .char.t .dot.c10 {
+          top: 16px; }
+        .multunus-logo-container.dotted .char.t .dot.c11 {
+          top: 14px; }
+        .multunus-logo-container.dotted .char.t .dot.c12 {
+          top: 12px; }
+        .multunus-logo-container.dotted .char.t .dot.c13 {
+          top: 10px; }
+        .multunus-logo-container.dotted .char.t .dot.c14 {
+          top: 8px; }
+        .multunus-logo-container.dotted .char.t .dot.c15 {
+          top: 6px; }
+        .multunus-logo-container.dotted .char.t .dot.c16 {
+          top: 4px; }
+        .multunus-logo-container.dotted .char.t .dot.c17 {
+          top: 2px; }
+        .multunus-logo-container.dotted .char.t .dot.c18 {
+          top: 0px; }
+        .multunus-logo-container.dotted .char.t .dot.c19 {
+          top: 35px;
+          left: 1px; }
+        .multunus-logo-container.dotted .char.t .dot.c20 {
+          top: 36px;
+          left: 2px; }
+        .multunus-logo-container.dotted .char.t .dot.c21 {
+          top: 36px;
+          left: 2px; }
+        .multunus-logo-container.dotted .char.t .dot.c22 {
+          top: 36px;
+          left: 3px; }
+        .multunus-logo-container.dotted .char.t .dot.c23 {
+          top: 35px;
+          left: 5px; }
+        .multunus-logo-container.dotted .char.t .dot.c24 {
+          top: 10px;
+          left: -3px; }
+        .multunus-logo-container.dotted .char.t .dot.c25 {
+          top: 10px;
+          left: 3px; }
+    .multunus-logo-container.dotted .char.n {
+      width: 24px;
+      margin: 50px 0 0 7px; }
+      .multunus-logo-container.dotted .char.n .dot {
+        /*line1*/
+        /*curve 1*/
+        /*join*/ }
+        .multunus-logo-container.dotted .char.n .dot.c1 {
+          top: 36px; }
+        .multunus-logo-container.dotted .char.n .dot.c2 {
+          top: 34px; }
+        .multunus-logo-container.dotted .char.n .dot.c3 {
+          top: 32px; }
+        .multunus-logo-container.dotted .char.n .dot.c4 {
+          top: 29px; }
+        .multunus-logo-container.dotted .char.n .dot.c5 {
+          top: 26px; }
+        .multunus-logo-container.dotted .char.n .dot.c6 {
+          top: 24px; }
+        .multunus-logo-container.dotted .char.n .dot.c7 {
+          top: 22px; }
+        .multunus-logo-container.dotted .char.n .dot.c8 {
+          top: 20px; }
+        .multunus-logo-container.dotted .char.n .dot.c9 {
+          top: 18px; }
+        .multunus-logo-container.dotted .char.n .dot.c10 {
+          top: 16px; }
+        .multunus-logo-container.dotted .char.n .dot.c11 {
+          top: 14px; }
+        .multunus-logo-container.dotted .char.n .dot.c12 {
+          top: 12px; }
+        .multunus-logo-container.dotted .char.n .dot.c13 {
+          top: 10px;
+          left: 1px; }
+        .multunus-logo-container.dotted .char.n .dot.c14 {
+          top: 10px;
+          left: 1px; }
+        .multunus-logo-container.dotted .char.n .dot.c15 {
+          top: 10px;
+          left: 2px; }
+        .multunus-logo-container.dotted .char.n .dot.c16 {
+          top: 10px;
+          left: 2px; }
+        .multunus-logo-container.dotted .char.n .dot.c17 {
+          top: 10px;
+          left: 3px; }
+        .multunus-logo-container.dotted .char.n .dot.c18 {
+          top: 9px;
+          left: 3px; }
+        .multunus-logo-container.dotted .char.n .dot.c19 {
+          top: 9px;
+          left: 4px; }
+        .multunus-logo-container.dotted .char.n .dot.c20 {
+          top: 9px;
+          left: 5px; }
+        .multunus-logo-container.dotted .char.n .dot.c21 {
+          top: 8px;
+          left: 7px; }
+        .multunus-logo-container.dotted .char.n .dot.c22 {
+          top: 8px;
+          left: 9px; }
+        .multunus-logo-container.dotted .char.n .dot.c23 {
+          top: 8px;
+          left: 11px; }
+        .multunus-logo-container.dotted .char.n .dot.c24 {
+          top: 9px;
+          left: 13px; }
+        .multunus-logo-container.dotted .char.n .dot.c25 {
+          top: 10px;
+          left: 13px; }
+        .multunus-logo-container.dotted .char.n .dot.c26 {
+          top: 10px;
+          left: 14px; }
+        .multunus-logo-container.dotted .char.n .dot.c27 {
+          top: 10px;
+          left: 14px; }
+        .multunus-logo-container.dotted .char.n .dot.c28 {
+          top: 10px;
+          left: 15px; }
+        .multunus-logo-container.dotted .char.n .dot.c29 {
+          top: 11px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.n .dot.c30 {
+          top: 12px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.n .dot.c31 {
+          top: 13px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.n .dot.c32 {
+          top: 15px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.n .dot.c33 {
+          top: 17px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.n .dot.c34 {
+          top: 19px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.n .dot.c35 {
+          top: 20px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.n .dot.c36 {
+          top: 22px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.n .dot.c37 {
+          top: 24px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.n .dot.c38 {
+          top: 26px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.n .dot.c39 {
+          top: 28px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.n .dot.c40 {
+          top: 30px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.n .dot.c41 {
+          top: 32px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.n .dot.c42 {
+          top: 35px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.n .dot.c43 {
+          top: 36px;
+          left: 16px; }
+    .multunus-logo-container.dotted .char.s {
+      width: 24px;
+      margin: 50px 0 0 7px; }
+      .multunus-logo-container.dotted .char.s .dot {
+        /*curve 1*/ }
+        .multunus-logo-container.dotted .char.s .dot.c16 {
+          top: 10px;
+          left: 1px; }
+        .multunus-logo-container.dotted .char.s .dot.c15 {
+          top: 10px;
+          left: 2px; }
+        .multunus-logo-container.dotted .char.s .dot.c14 {
+          top: 10px;
+          left: 2px; }
+        .multunus-logo-container.dotted .char.s .dot.c13 {
+          top: 10px;
+          left: 3px; }
+        .multunus-logo-container.dotted .char.s .dot.c12 {
+          top: 9px;
+          left: 3px; }
+        .multunus-logo-container.dotted .char.s .dot.c11 {
+          top: 9px;
+          left: 4px; }
+        .multunus-logo-container.dotted .char.s .dot.c10 {
+          top: 9px;
+          left: 5px; }
+        .multunus-logo-container.dotted .char.s .dot.c9 {
+          top: 8px;
+          left: 7px; }
+        .multunus-logo-container.dotted .char.s .dot.c8 {
+          top: 8px;
+          left: 9px; }
+        .multunus-logo-container.dotted .char.s .dot.c7 {
+          top: 8px;
+          left: 11px; }
+        .multunus-logo-container.dotted .char.s .dot.c6 {
+          top: 9px;
+          left: 13px; }
+        .multunus-logo-container.dotted .char.s .dot.c5 {
+          top: 10px;
+          left: 13px; }
+        .multunus-logo-container.dotted .char.s .dot.c4 {
+          top: 10px;
+          left: 14px; }
+        .multunus-logo-container.dotted .char.s .dot.c3 {
+          top: 10px;
+          left: 14px; }
+        .multunus-logo-container.dotted .char.s .dot.c2 {
+          top: 10px;
+          left: 15px; }
+        .multunus-logo-container.dotted .char.s .dot.c1 {
+          top: 11px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.s .dot.c17 {
+          top: 12px;
+          left: 1px; }
+        .multunus-logo-container.dotted .char.s .dot.c18 {
+          top: 13px;
+          left: 0px; }
+        .multunus-logo-container.dotted .char.s .dot.c19 {
+          top: 14px;
+          left: 0px; }
+        .multunus-logo-container.dotted .char.s .dot.c20 {
+          top: 16px;
+          left: 0px; }
+        .multunus-logo-container.dotted .char.s .dot.c21 {
+          top: 18px;
+          left: 0px; }
+        .multunus-logo-container.dotted .char.s .dot.c22 {
+          top: 20px;
+          left: 0px; }
+        .multunus-logo-container.dotted .char.s .dot.c23 {
+          top: 19px;
+          left: 0px; }
+        .multunus-logo-container.dotted .char.s .dot.c24 {
+          top: 19px;
+          left: 0px; }
+        .multunus-logo-container.dotted .char.s .dot.c25 {
+          top: 20px;
+          left: 1px; }
+        .multunus-logo-container.dotted .char.s .dot.c26 {
+          top: 20px;
+          left: 2px; }
+        .multunus-logo-container.dotted .char.s .dot.c27 {
+          top: 21px;
+          left: 3px; }
+        .multunus-logo-container.dotted .char.s .dot.c28 {
+          top: 22px;
+          left: 5px; }
+        .multunus-logo-container.dotted .char.s .dot.c29 {
+          top: 22px;
+          left: 7px; }
+        .multunus-logo-container.dotted .char.s .dot.c30 {
+          top: 23px;
+          left: 9px; }
+        .multunus-logo-container.dotted .char.s .dot.c31 {
+          top: 24px;
+          left: 11px; }
+        .multunus-logo-container.dotted .char.s .dot.c32 {
+          top: 25px;
+          left: 13px; }
+        .multunus-logo-container.dotted .char.s .dot.c33 {
+          top: 26px;
+          left: 14px; }
+        .multunus-logo-container.dotted .char.s .dot.c34 {
+          top: 27px;
+          left: 15px; }
+        .multunus-logo-container.dotted .char.s .dot.c35 {
+          top: 28px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.s .dot.c36 {
+          top: 30px;
+          left: 16px; }
+        .multunus-logo-container.dotted .char.s .dot.c37 {
+          top: 32px;
+          left: 15px; }
+        .multunus-logo-container.dotted .char.s .dot.c38 {
+          top: 33px;
+          left: 15px; }
+        .multunus-logo-container.dotted .char.s .dot.c39 {
+          top: 34px;
+          left: 14px; }
+        .multunus-logo-container.dotted .char.s .dot.c40 {
+          top: 35px;
+          left: 13px; }
+        .multunus-logo-container.dotted .char.s .dot.c41 {
+          top: 36px;
+          left: 12px; }
+        .multunus-logo-container.dotted .char.s .dot.c42 {
+          top: 37px;
+          left: 11px; }
+        .multunus-logo-container.dotted .char.s .dot.c43 {
+          top: 38px;
+          left: 10px; }
+        .multunus-logo-container.dotted .char.s .dot.c44 {
+          top: 38px;
+          left: 9px; }
+        .multunus-logo-container.dotted .char.s .dot.c45 {
+          top: 38px;
+          left: 7px; }
+        .multunus-logo-container.dotted .char.s .dot.c46 {
+          top: 38px;
+          left: 5px; }
+        .multunus-logo-container.dotted .char.s .dot.c47 {
+          top: 37px;
+          left: 4px; }
+        .multunus-logo-container.dotted .char.s .dot.c48 {
+          top: 36px;
+          left: 3px; }
+        .multunus-logo-container.dotted .char.s .dot.c49 {
+          top: 36px;
+          left: 2px; }
+        .multunus-logo-container.dotted .char.s .dot.c50 {
+          top: 35px;
+          left: 1px; }
+        .multunus-logo-container.dotted .char.s .dot.c51 {
+          top: 35px;
+          left: 0px; }
