@@ -7,11 +7,12 @@ window.dotCount = {
 	"s" : 52
 };
 window.Dotted = {
-	addDotsToChar: function(letter, colorOrder) {
+	addDotsToChar: function(letter, colorOrder, customClass) {
 		colorOrder = typeof colorOrder !== 'undefined' ? colorOrder : "primary";
+		customClass = typeof customClass !== 'undefined' ? customClass : "";
 		var charElement = $("<div class='char'></div>");
 		var charClone = charElement.clone();
-		charClone.addClass(letter).addClass(colorOrder);
+		charClone.addClass(letter).addClass(colorOrder).addClass(customClass);
 		$(".dotted").append(charClone);
 		console.log("append letter: "+letter);
 		var dot = $("<div class='dot'></div>");
@@ -20,19 +21,26 @@ window.Dotted = {
 			dotClone.addClass("c"+index);
 			$(".dotted .char."+letter).append(dotClone);
 		}
-
-
-
 	}
 };
 
 $(document).ready(function(){
+	writeDottedMultunusLogo();
+	bindBulletAnimation();
+});
+function writeDottedMultunusLogo() {
 	Dotted.addDotsToChar("m");
-	Dotted.addDotsToChar("u");
+	Dotted.addDotsToChar("u", "primary", "first");
 	Dotted.addDotsToChar("l");
 	Dotted.addDotsToChar("t");
-	Dotted.addDotsToChar("u", "secondary");
+	Dotted.addDotsToChar("u", "secondary", "second");
 	Dotted.addDotsToChar("n");
-	Dotted.addDotsToChar("u", "secondary");
+	Dotted.addDotsToChar("u", "secondary", "third");
 	Dotted.addDotsToChar("s", "secondary");
-});
+}
+function bindBulletAnimation() {
+	$(".start-bullets").click(function(){
+		$(this).hide();
+		$(".dotted").removeClass("inactive");
+	});
+}

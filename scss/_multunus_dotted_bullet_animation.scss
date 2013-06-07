@@ -1,0 +1,125 @@
+	.char {
+		.dot{
+			transition: all 1s cubic-bezier(0.930, 0.100, 0.000, 1.100);
+			&.c1{transition-delay:0;}
+			&.c2{transition-delay:0.1s;}
+			&.c3{transition-delay:0.2s;}
+			&.c4{transition-delay:0.3s;}
+			&.c5{transition-delay:0.4s;}
+			&.c6{transition-delay:0.5s;}
+			&.c7{transition-delay:0.6s;}
+			&.c8{transition-delay:0.7s;}
+			&.c9{transition-delay:0.8s;}
+			&.c10{transition-delay:0.9s;}
+			&.c11{transition-delay:1.0s;}
+			&.c12{transition-delay:1.1s;}
+			&.c13{transition-delay:1.2s;} 
+			&.c14{transition-delay:1.3s;} 
+			&.c15{transition-delay:1.4s;} 
+			&.c16{transition-delay:1.5s;} 
+			&.c17{transition-delay:1.6s;} 
+			&.c18{transition-delay:1.7s;} 
+			&.c19{transition-delay:1.8s;} 
+			&.c20{transition-delay:1.9s;} 
+			&.c21{transition-delay:2.0s;} 
+			&.c22{transition-delay:2.1s;} 
+			&.c23{transition-delay:2.2s;} 
+			&.c24{transition-delay:2.3s;} 
+			&.c25{transition-delay:2.4s;}
+			&.c26{ transition-delay:2.5s;}
+			&.c27{ transition-delay:2.6s;}
+			&.c28{ transition-delay:2.7s;}
+			&.c29{ transition-delay:2.8s;}
+			&.c30{ transition-delay:2.9s;}
+			&.c31{ transition-delay:3.0s;}
+			&.c32{ transition-delay:3.1s;}
+			&.c33{ transition-delay:3.2s;}
+			&.c34{ transition-delay:3.3s;}
+			&.c35{ transition-delay:3.4s;}
+			&.c36{ transition-delay:3.5s;}
+			&.c37{ transition-delay:3.6s;}
+			&.c38{ transition-delay:3.7s;}
+			&.c39{ transition-delay:3.8s;}
+			&.c40{ transition-delay:3.9s;}
+			&.c41{ transition-delay:4.0s;}
+			&.c42{ transition-delay:4.1s;}
+			&.c43{ transition-delay:4.2s;}
+			&.c44{ transition-delay:4.3s;}
+			&.c45{ transition-delay:4.4s;}
+			&.c46{ transition-delay:4.5s;}
+			&.c47{ transition-delay:4.6s;}
+			&.c48{ transition-delay:4.7s;}
+			&.c49{transition-delay:4.8s;}
+			&.c50{transition-delay:4.9s;}
+			&.c51{transition-delay:5.0s;}
+			&.c52{transition-delay:5.1s;}
+			&.c53{transition-delay:5.2s;}
+			&.c54{transition-delay:5.3s;}
+			&.c55{transition-delay:5.4s;}
+			&.c56{ transition-delay:5.5s;}
+			&.c57{ transition-delay:5.6s;}
+			&.c58{ transition-delay:5.7s;}
+			&.c59{ transition-delay:5.8s;}
+			&.c60{ transition-delay:5.9s;}
+			&.c61{ transition-delay:6.0s;}
+			&.c62{ transition-delay:6.1s;}
+			&.c63{ transition-delay:6.2s;}
+			&.c64{ transition-delay:6.3s;}
+			&.c65{ transition-delay:6.4s;}
+			&.c66{ transition-delay:6.5s;}
+			&.c67{ transition-delay:6.6s;}
+			&.c68{ transition-delay:6.7s;}
+			&.c69{ transition-delay:6.8s;}
+			&.c70{ transition-delay:6.9s;}
+			&.c71{ transition-delay:7.0s;}
+			&.c72{ transition-delay:7.1s;}
+			&.c73{ transition-delay:7.2s;}		
+		}
+	}
+	.multunus-logo-container.dotted.inactive {
+		.char {
+			.dot[class*="c"]{
+				transition: all 1s linear;
+				left:-200px !important;
+				top:-1000px !important;
+			}
+			&.m {
+				.dot[class*="c"]{
+				}
+			}
+			&.u.first {
+				.dot[class*="c"]{
+					top:1000px !important;
+					left:200px !important;
+				}
+			}
+			&.l {
+				.dot[class*="c"]{
+				}
+			}
+			&.t {
+				.dot[class*="c"]{
+				}
+			}
+			&.u.second {
+				.dot[class*="c"]{
+					top:1000px !important;
+					left:200px !important;
+				}
+			}
+			&.n {
+				.dot[class*="c"]{
+				}
+			}
+			&.u.third {
+				.dot[class*="c"]{
+					top:1000px !important;
+					left:200px !important;
+				}
+			}
+			&.s {
+				.dot[class*="c"]{
+				}
+			}
+		}
+	}

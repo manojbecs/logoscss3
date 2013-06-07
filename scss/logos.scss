@@ -1,8 +1,12 @@
+$background_color: #000;
 $primary_dark: #FFF;
 $secondary_dark: #B30000;
 body {
 	width: 100%;
 	height: 100%;
+	background: $background_color;
+	text-align:center;
 }
 
 @import "multunus_dotted_logo.scss";
+@import "multunus_dotted_bullet_animation.scss";

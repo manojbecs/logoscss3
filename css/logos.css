@@ -1,12 +1,20 @@
 body {
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  background: black;
+  text-align: center; }
+
+.start-bullets {
+  padding: 20px 40px;
+  font-size: 2em;
+  cursor: pointer;
+  border-radius: 20px; }
 
 .multunus-logo-container.dotted {
   width: 330px;
   height: 150px;
-  margin: 4em auto;
-  background: #000;
+  margin: 12em auto 2em auto;
+  background: black;
   position: relative;
   top: 0;
   left: 0; }
@@ -750,8 +758,171 @@ body {
           top: 36px;
           left: 2px; }
         .multunus-logo-container.dotted .char.s .dot.c50 {
-          top: 35px;
+          top: 36px;
           left: 1px; }
         .multunus-logo-container.dotted .char.s .dot.c51 {
           top: 35px;
           left: 0px; }
+
+.char .dot {
+  transition: all 1s cubic-bezier(0.93, 0.1, 0, 1.1); }
+  .char .dot.c1 {
+    transition-delay: 0; }
+  .char .dot.c2 {
+    transition-delay: 0.1s; }
+  .char .dot.c3 {
+    transition-delay: 0.2s; }
+  .char .dot.c4 {
+    transition-delay: 0.3s; }
+  .char .dot.c5 {
+    transition-delay: 0.4s; }
+  .char .dot.c6 {
+    transition-delay: 0.5s; }
+  .char .dot.c7 {
+    transition-delay: 0.6s; }
+  .char .dot.c8 {
+    transition-delay: 0.7s; }
+  .char .dot.c9 {
+    transition-delay: 0.8s; }
+  .char .dot.c10 {
+    transition-delay: 0.9s; }
+  .char .dot.c11 {
+    transition-delay: 1.0s; }
+  .char .dot.c12 {
+    transition-delay: 1.1s; }
+  .char .dot.c13 {
+    transition-delay: 1.2s; }
+  .char .dot.c14 {
+    transition-delay: 1.3s; }
+  .char .dot.c15 {
+    transition-delay: 1.4s; }
+  .char .dot.c16 {
+    transition-delay: 1.5s; }
+  .char .dot.c17 {
+    transition-delay: 1.6s; }
+  .char .dot.c18 {
+    transition-delay: 1.7s; }
+  .char .dot.c19 {
+    transition-delay: 1.8s; }
+  .char .dot.c20 {
+    transition-delay: 1.9s; }
+  .char .dot.c21 {
+    transition-delay: 2.0s; }
+  .char .dot.c22 {
+    transition-delay: 2.1s; }
+  .char .dot.c23 {
+    transition-delay: 2.2s; }
+  .char .dot.c24 {
+    transition-delay: 2.3s; }
+  .char .dot.c25 {
+    transition-delay: 2.4s; }
+  .char .dot.c26 {
+    transition-delay: 2.5s; }
+  .char .dot.c27 {
+    transition-delay: 2.6s; }
+  .char .dot.c28 {
+    transition-delay: 2.7s; }
+  .char .dot.c29 {
+    transition-delay: 2.8s; }
+  .char .dot.c30 {
+    transition-delay: 2.9s; }
+  .char .dot.c31 {
+    transition-delay: 3.0s; }
+  .char .dot.c32 {
+    transition-delay: 3.1s; }
+  .char .dot.c33 {
+    transition-delay: 3.2s; }
+  .char .dot.c34 {
+    transition-delay: 3.3s; }
+  .char .dot.c35 {
+    transition-delay: 3.4s; }
+  .char .dot.c36 {
+    transition-delay: 3.5s; }
+  .char .dot.c37 {
+    transition-delay: 3.6s; }
+  .char .dot.c38 {
+    transition-delay: 3.7s; }
+  .char .dot.c39 {
+    transition-delay: 3.8s; }
+  .char .dot.c40 {
+    transition-delay: 3.9s; }
+  .char .dot.c41 {
+    transition-delay: 4.0s; }
+  .char .dot.c42 {
+    transition-delay: 4.1s; }
+  .char .dot.c43 {
+    transition-delay: 4.2s; }
+  .char .dot.c44 {
+    transition-delay: 4.3s; }
+  .char .dot.c45 {
+    transition-delay: 4.4s; }
+  .char .dot.c46 {
+    transition-delay: 4.5s; }
+  .char .dot.c47 {
+    transition-delay: 4.6s; }
+  .char .dot.c48 {
+    transition-delay: 4.7s; }
+  .char .dot.c49 {
+    transition-delay: 4.8s; }
+  .char .dot.c50 {
+    transition-delay: 4.9s; }
+  .char .dot.c51 {
+    transition-delay: 5.0s; }
+  .char .dot.c52 {
+    transition-delay: 5.1s; }
+  .char .dot.c53 {
+    transition-delay: 5.2s; }
+  .char .dot.c54 {
+    transition-delay: 5.3s; }
+  .char .dot.c55 {
+    transition-delay: 5.4s; }
+  .char .dot.c56 {
+    transition-delay: 5.5s; }
+  .char .dot.c57 {
+    transition-delay: 5.6s; }
+  .char .dot.c58 {
+    transition-delay: 5.7s; }
+  .char .dot.c59 {
+    transition-delay: 5.8s; }
+  .char .dot.c60 {
+    transition-delay: 5.9s; }
+  .char .dot.c61 {
+    transition-delay: 6.0s; }
+  .char .dot.c62 {
+    transition-delay: 6.1s; }
+  .char .dot.c63 {
+    transition-delay: 6.2s; }
+  .char .dot.c64 {
+    transition-delay: 6.3s; }
+  .char .dot.c65 {
+    transition-delay: 6.4s; }
+  .char .dot.c66 {
+    transition-delay: 6.5s; }
+  .char .dot.c67 {
+    transition-delay: 6.6s; }
+  .char .dot.c68 {
+    transition-delay: 6.7s; }
+  .char .dot.c69 {
+    transition-delay: 6.8s; }
+  .char .dot.c70 {
+    transition-delay: 6.9s; }
+  .char .dot.c71 {
+    transition-delay: 7.0s; }
+  .char .dot.c72 {
+    transition-delay: 7.1s; }
+  .char .dot.c73 {
+    transition-delay: 7.2s; }
+
+.multunus-logo-container.dotted.inactive .char .dot[class*="c"] {
+  transition: all 1s linear;
+  left: -200px !important;
+  top: -1000px !important; }
+.multunus-logo-container.dotted.inactive .char.u.first .dot[class*="c"] {
+  top: 1000px !important;
+  left: 200px !important; }
+.multunus-logo-container.dotted.inactive .char.u.second .dot[class*="c"] {
+  top: 1000px !important;
+  left: 200px !important; }
+.multunus-logo-container.dotted.inactive .char.u.third .dot[class*="c"] {
+  top: 1000px !important;
+  left: 200px !important; }
